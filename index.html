@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customized Tshirts</title>
+    <style>
+        body{
+            background-image: url('12.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* opacity: 0.25; */
+        }
+        div{
+            float:right;
+            /* background-color: rgb(100, 168, 87); */
+            margin: 16px;
+            padding: 8px;
+            padding-right: 65px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: rgba(187, 101, 180, 0.616); color: rgb(51, 87, 141); text-align: center; ">Welcome to our Customized Tshirt Shop</h1>
+    <h2 style="text-align: center; color: rgb(67, 187, 171);">Make your own Customized Tshirts!!!</h2>
+    <img src="./13.jpg" alt="Tshirt" style="width: 624px; height: 416px; margin: 2%;">
+    <div>
+        <div style="float: left;">
+            <label for="size">Select Size</label>
+            <input type="radio" name="size" id="" value="S">S
+            <input type="radio" name="size" id="" value="M">M
+            <input type="radio" name="size" id="" value="L">L
+            <input type="radio" name="size" id="" value="XL">XL
+        </div><br>
+        <div style="float: left;">
+            <label for="colour">Select Colour</label>
+            <input type="radio" name="colour" id="" value="Red">Red
+            <input type="radio" name="colour" id="" value="Black">Black
+            <input type="radio" name="colour" id="" value="White">White
+            <input type="radio" name="colour" id="" value="Green">Green
+            <input type="radio" name="colour" id="" value="Yellow">Yellow
+        </div><br>
+        <div style="float: left;">
+            <label for="quantity">Select Quantity</label>
+            <select name="quantity" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div><br>
+        <div style="float: left;">
+            <label for="tagline">Write a Tagline</label>
+            <input type="text" name="tagline">
+        </div><br>
+        <div style="float: left;">
+            <label for="adress">Delivery Address</label>
+            <textarea name="adress" rows="4" cols="20"></textarea>
+        </div><br>
+        <div style="float: right;">
+            <button type="submit" value="submit" form="form_id" id="">Submit</button>
+            <button type="cancel" value="cancel" id="">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>
